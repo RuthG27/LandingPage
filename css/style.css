@@ -1,3 +1,28 @@
+/* 
+Para realizar esta actividad he usado:
+1. display: flex
+Con flex posicionamos los elementos uno detrás del
+otro. 
+Para manipular la dirección y comportamiento de los ítems
+a lo largo del eje principal del contenedor.
+He usado flex-direction:column; 
+y en cuanto a la alineación de los items he usado 
+justify-content:center y  justify-content: space-between
+
+
+2. Animaciones keyframes
+Un movimiento consiste en ir de una posición inicial a otra final.
+Estos dos puntos son los que definen la animación, son la clave, y se les conoce como tal:
+keyframes.
+
+La regla @keyframes en CSS3 permite definir animaciones 
+especificando cómo deben cambiar los estilos de un elemento 
+a lo largo del tiempo. Se le asigna un nombre para poder 
+usarla posteriormente en elementos mediante la propiedad 
+animation. Se pueden definir múltiples etapas (fotogramas) 
+usando porcentajes o palabras clave como from y to.
+
+*/
 * {
   margin: 0px;
   padding: 0px;
